@@ -5,11 +5,9 @@ body{
 header{
     background-color: #f5f5f5;
     height: 47px;
-    display: flex;
     display: grid;
     grid-template-columns:330px 180px 20px 180px 450px 150px 20px 120px 20px 120px;
     grid-template-rows: 100%;
-    height: 47px;
     width: 100%;
     list-style: none;
 }  
@@ -111,6 +109,34 @@ svg{
 
 #section{
     display:grid;
-    grid-template-columns: ;
+    grid-template-columns: 330px 262px 585px 293px;
     grid-template-rows: 100%;
+    height: 79px;
+    width: 100%;
+}
+
+#pages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-start: 3;
+}
+
+#logo{
+    display: grid;
+    grid-column-start: 2;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#compras{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#compras svg{
+    padding-right: 15px;
 }
