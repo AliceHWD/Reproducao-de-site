@@ -109,7 +109,7 @@ svg{
 
 #section{
     display:grid;
-    grid-template-columns: 330px 262px 585px 293px;
+    grid-template-columns: 330px 262px 585px 250px 154px;
     grid-template-rows: 100%;
     height: 79px;
     width: 100%;
@@ -132,9 +132,12 @@ svg{
 }
 
 #compras{
+    display: grid;
+    grid-column-start: 5;
+
     display: flex;
-    justify-content: right;
-    align-items: center;
+    justify-content: center;
+    align-items: center;    
 }
 
 #compras svg{
@@ -145,7 +148,7 @@ svg{
 
 #info{
     display: grid;
-    grid-template-columns: 330px 240px 22px 608px 109px 192px;
+    grid-template-columns: 330px 240px 22px 608px 109px 80px 50px 150px;
     grid-template-rows: 100%;
     height: 50px;
     font-size: 18px;
@@ -171,7 +174,7 @@ svg{
 }
 
 #What-need{
-    color: #b2b2b2;
+    color: #cccccc;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -210,7 +213,7 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-top: 8px;
+    margin-top: 8px;
 }
 
 #rodinha{
@@ -218,4 +221,98 @@ svg{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+
+#contato>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contato{
+    display: grid;
+    grid-column-start: 7;
+}
+
+#numero{
+    margin: 0;
+    font-size: 19px;
+}
+
+#suporte{
+    font-weight:400;
+    font-size: 14px;
+    margin: 0;
+}
+
+#numeroEsuporte{
+    padding-left: 20px;
+    grid-column-start: 8;
+   
+}
+
+/* Fruit fresh */
+
+#fruit-fresh{
+    display: grid;
+    grid-template-columns: 592px 1000px;
+    grid-template-rows: 100%;
+    height: 530px;
+    padding-bottom: 50px;
+}
+
+#banner-vegetable{
+    background-image: url(banner.jpg.webp);
+    grid-column-start: 2;
+    margin-top: 50px; 
+}
+
+#escrita-banner{
+    
+}
+
+span{
+    color: #7fad39;
+    
+}
+
+#Pickup{
+    margin-top: 5px;
+    font-weight:400;
+
+}
+
+#V100{
+    font-size: 3em;
+    margin: 0;
+    line-height: 55px;
+
+}
+
+button{
+    background-color: #7fad39;
+    border: 0;
+    color: white;
+    width: 160px;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Categorias */
+#categorias{
+    display: grid;
+    grid-template-columns: 330px 292.5px 292.5px 292.5px 292.5px;
+    grid-template-rows: 100%;
+    height: 270px;
+}
+
+#categorias>div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#laranja{
+    grid-column-start: 2;
 }
