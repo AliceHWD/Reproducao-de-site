@@ -45,6 +45,7 @@ svg{
   font-variation-settings:
     "slnt" 0;
     color: black;
+    box-sizing: border-box;
 }   
 #email{
     grid-column-start: 2;
@@ -109,7 +110,7 @@ svg{
 
 #section{
     display:grid;
-    grid-template-columns: 330px 262px 585px 250px 154px;
+    grid-template-columns: 330px 262px 22px 585px 250px 154px;
     grid-template-rows: 100%;
     height: 79px;
     width: 100%;
@@ -119,7 +120,7 @@ svg{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    grid-column-start: 3;
+    grid-column-start: 4;
 }
 
 #logo{
@@ -133,7 +134,7 @@ svg{
 
 #compras{
     display: grid;
-    grid-column-start: 5;
+    grid-column-start: 6;
 
     display: flex;
     justify-content: center;
@@ -141,14 +142,14 @@ svg{
 }
 
 #compras svg{
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 /*Informações*/
 
 #info{
     display: grid;
-    grid-template-columns: 330px 240px 22px 608px 109px 80px 50px 150px;
+    grid-template-columns: 330px 262px 22px 200px 408px 109px 80px 50px 150px;
     grid-template-rows: 100%;
     height: 50px;
     font-size: 18px;
@@ -173,12 +174,14 @@ svg{
     border: 2px solid #e9e9e9;
 }
 
-#What-need{
+#What{
     color: #cccccc;
     display:flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 16px;
+    border: 2px solid #e9e9e9;
+    border-left: 1px solid white;
 }
 
 #barra4{
@@ -205,6 +208,10 @@ svg{
 
 #btnProcurar{
     background-color: #7fad39;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
 }
 
 #search{
@@ -231,7 +238,7 @@ svg{
 
 #contato{
     display: grid;
-    grid-column-start: 7;
+    grid-column-start: 8;
 }
 
 #numero{
@@ -247,7 +254,7 @@ svg{
 
 #numeroEsuporte{
     padding-left: 20px;
-    grid-column-start: 8;
+    grid-column-start: 9;
    
 }
 
@@ -255,7 +262,7 @@ svg{
 
 #fruit-fresh{
     display: grid;
-    grid-template-columns: 592px 1000px;
+    grid-template-columns: 614px 997px;
     grid-template-rows: 100%;
     height: 530px;
     padding-bottom: 50px;
@@ -286,10 +293,10 @@ span{
     font-size: 3em;
     margin: 0;
     line-height: 55px;
-
+    font-weight: bold;
 }
 
-button{
+#shop{
     background-color: #7fad39;
     border: 0;
     color: white;
@@ -300,19 +307,64 @@ button{
     margin-top: 20px;
 }
 
+#escrita-banner{
+    padding: 75px;
+}
+
 /* Categorias */
 #categorias{
     display: grid;
-    grid-template-columns: 330px 292.5px 292.5px 292.5px 292.5px;
+    grid-template-columns: 330px 273.25px 30px 273.25px 30px 273.25px 30px 273.25px;
     grid-template-rows: 100%;
     height: 270px;
+    padding-bottom: 50px;
 }
 
-#categorias>div{
-    padding-left: 15px;
-    padding-right: 15px;
+#categorias div img{
+    height: 270px;
+    width: 273.25px;
 }
 
 #laranja{
     grid-column-start: 2;
 }
+
+#suco{
+    grid-column-start: 4;
+}
+
+#carne{
+    grid-column-start: 6;
+}
+
+#vegetal{
+    grid-column-start: 8;
+}
+
+/* Product */
+#product{
+    height: 170px;
+    display: grid;
+    justify-content: center;
+}
+
+#featured{
+    font-size: 36px;
+    margin: 0;
+}
+
+#linha-verde{
+    height: 4px;
+    width: 80px;
+    background-color: #7fad39;
+    margin-left: 100px;
+}
+
+#options{
+    display: flex;
+}
+
+#options p{
+    margin-right: 25px;
+}
+
