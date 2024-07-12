@@ -6,7 +6,7 @@ header{
     background-color: #f5f5f5;
     height: 47px;
     display: grid;
-    grid-template-columns:330px 180px 20px 180px 450px 150px 20px 120px 20px 120px;
+    grid-template-columns:330px 180px 20px 180px 375px 150px 20px 120px 20px 120px;
     grid-template-rows: 100%;
     width: 100%;
     list-style: none;
@@ -110,7 +110,7 @@ svg{
 
 #section{
     display:grid;
-    grid-template-columns: 330px 262px 22px 585px 250px 154px;
+    grid-template-columns: 330px 262px 22px 488px 250px 154px;
     grid-template-rows: 100%;
     height: 79px;
     width: 100%;
@@ -149,7 +149,7 @@ svg{
 
 #info{
     display: grid;
-    grid-template-columns: 330px 262px 22px 200px 408px 109px 80px 50px 150px;
+    grid-template-columns: 330px 262px 22px 200px 311px 109px 80px 50px 150px;
     grid-template-rows: 100%;
     height: 50px;
     font-size: 18px;
@@ -262,7 +262,7 @@ svg{
 
 #fruit-fresh{
     display: grid;
-    grid-template-columns: 614px 997px;
+    grid-template-columns: 614px 900px;
     grid-template-rows: 100%;
     height: 530px;
     padding-bottom: 50px;
@@ -272,10 +272,6 @@ svg{
     background-image: url(banner.jpg.webp);
     grid-column-start: 2;
     margin-top: 50px; 
-}
-
-#escrita-banner{
-    
 }
 
 span{
@@ -317,7 +313,7 @@ span{
     grid-template-columns: 330px 273.25px 30px 273.25px 30px 273.25px 30px 273.25px;
     grid-template-rows: 100%;
     height: 270px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #categorias div img{
@@ -342,8 +338,8 @@ span{
 }
 
 /* Product */
+
 #product{
-    height: 170px;
     display: grid;
     justify-content: center;
 }
@@ -351,20 +347,185 @@ span{
 #featured{
     font-size: 36px;
     margin: 0;
+    height: 70px;
 }
 
 #linha-verde{
     height: 4px;
     width: 80px;
     background-color: #7fad39;
-    margin-left: 100px;
-}
-
-#options{
-    display: flex;
+    margin-left: 850px;
 }
 
 #options p{
     margin-right: 25px;
 }
 
+#Options{
+    display: grid;
+    grid-template-columns: 680px 550px 720px;
+    height: 27px;
+    margin-bottom: 50px;
+
+}
+
+#cadaUm{
+    grid-column-start: 2 ;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+#cadaUm p{
+    padding-right: 30px;
+}
+
+.Crab{
+    text-align: center;
+}
+
+/* banner 1 e 2 */
+#banner{
+    display: grid;
+    grid-template-columns: 330px 555px 50px 555px;
+    height: 262.89;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+#banner1{
+    grid-column-start: 2 ;
+}
+
+#banner2{
+    grid-column-start: 4 ;
+}
+
+/* Carrossel produtos */
+
+#carrossel-produtos{
+   display: grid;
+   grid-template-columns: 330px 370px 30px 370px 60px 370px;
+}
+
+#lProducts{
+    grid-column-start: 2;
+    display: flex;    
+}
+
+#carrossel-produtos p{
+    margin-right: 80px;
+    font-size: 24px;
+}
+
+#carrossel-produtos svg{
+    margin-top: 5px;
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+}
+
+#carrossel-produtos button{
+    height: 30px;
+    width: 30px;
+    max-height: 30px;
+    display: flex;
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: #F3F6FA;
+    border-color: rgb(204, 204, 204);
+}
+
+#TRProducts{
+    grid-column-start: 4;
+    display: flex;
+}
+
+#RProducts{
+    grid-column-start: 6;
+    display: flex;
+}
+
+
+.produtos9{
+    display: grid;
+    grid-template-columns: 330px 360px 30px 360px 60px 360px;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 30px;
+}
+
+.produtos9 img{
+    height: 110px;
+    width: 110px;
+
+}
+
+.img1{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    display: flex;
+}
+
+.img2{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display: flex;
+}
+.img3{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    display: flex;
+}
+
+.img4{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    display: flex;
+}
+
+.img5{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    display: flex;
+}
+
+.img6{
+    grid-row-start: 3;
+    grid-column-start: 4;
+    display: flex;
+}
+
+.img7{
+    grid-row-start: 1;
+    grid-column-start: 6;
+    display: flex;
+}
+
+.img8{
+    grid-row-start: 2;
+    grid-column-start: 6;
+    display: flex;
+}
+
+.img9{
+    grid-row-start: 1;
+    grid-column-start: 6;
+    display: flex;
+}
+
+.img7{
+    grid-row-start: 3;
+    grid-column-start: 6;
+    display: flex;
+}
+
+#imgP{
+    margin-right: 20px;
+}
+
+/* Blog */
+
+.BlogOptions{
+    grid-template-columns: 330px 360px 30px 360px 30px 360px;
+    height: 440px;
+}
