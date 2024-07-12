@@ -350,11 +350,15 @@ span{
     height: 70px;
 }
 
+#paiLinhaVerde{
+    width: 900px;
+}
+
 #linha-verde{
     height: 4px;
     width: 80px;
     background-color: #7fad39;
-    margin-left: 850px;
+    margin-left: 900px;
 }
 
 #options p{
@@ -419,9 +423,15 @@ span{
     font-size: 24px;
 }
 
-#carrossel-produtos svg{
+.svg{
     margin-top: 5px;
     transform: rotate(90deg);
+    transform-origin: 50% 50%;
+}
+
+.svg1{
+    margin-top: 5px;
+    transform: rotate(270deg);
     transform-origin: 50% 50%;
 }
 
@@ -525,7 +535,65 @@ span{
 
 /* Blog */
 
-.BlogOptions{
+.blog{
+    margin-top: 50px;
+}
+
+#BlogOptions{
+    display: grid;
     grid-template-columns: 330px 360px 30px 360px 30px 360px;
     height: 440px;
+    margin-top: 50px;
+}
+
+.primeiraColuna{
+    grid-column-start: 2;
+}
+
+.segundaColuna{
+    grid-column-start: 4;
+}
+.terceiraColuna{
+    grid-column-start: 6;
+}
+
+.clarim{
+    font-weight: 400;
+}
+
+#espaco{
+    line-height: 1;
+}
+
+.message{
+    margin-left: 12px;
+    margin-right: 3px;
+}
+
+.boldi{
+    font-size: 20px;
+}
+
+/* Rodapé */
+
+.rodape{
+    display: grid;
+    grid-template-columns: 330px 300px 80px 220px 200px 450px;
+    height: 400px;
+    align-items: center;
+    background-color: #F3F6FA;
+    line-height: 1.4;
+}
+
+.colunaUm{
+    grid-column-start: 2;
+}
+
+.colunaTres{
+    grid-column-start: 4 ;
+    line-height: 2;
+}
+
+.colunaQuatro{
+    line-height: 2;
 }
