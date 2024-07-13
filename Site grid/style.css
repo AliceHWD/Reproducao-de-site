@@ -46,6 +46,8 @@ svg{
     "slnt" 0;
     color: black;
     box-sizing: border-box;
+
+    text-decoration: none;
 }   
 #email{
     grid-column-start: 2;
@@ -576,10 +578,10 @@ span{
 
 /* Rodapé */
 
-.rodape{
+footer{
     display: grid;
-    grid-template-columns: 330px 300px 80px 220px 200px 450px;
-    height: 400px;
+    grid-template-columns: 330px 300px 80px 220px 200px 420px;
+    grid-template-rows: 300px 10px 50px;   
     align-items: center;
     background-color: #F3F6FA;
     line-height: 1.4;
@@ -594,6 +596,77 @@ span{
     line-height: 2;
 }
 
+#useLinks{
+    margin-bottom: 0px;
+}
+
+#Us{
+    margin-top: 0;
+}
+
 .colunaQuatro{
     line-height: 2;
+}
+
+footer input{
+    height: 40px;
+    width: 250px;
+    border: 0;
+    padding: 20px;
+    font-size: 16px;
+    font-weight:500;
+}
+
+#btnSubscribe{
+    height: 40px;
+    width: 100px;
+    background-color: #7fad39;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-color: #ffffff;
+    margin: 0;
+}
+
+.radio{
+    border-radius: 50%;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-color: #ffffff;
+}
+
+.radio svg{
+   margin: 12px;
+}
+
+#redes-sociais{
+    display: flex;
+    justify-content: start;
+    padding-top: 30px;
+}
+
+#linha-cinza{
+    grid-row-start: 2;
+    background-color: rgb(224, 224, 224);
+    height: 2px;
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+#a{
+    display: flex;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+#coracao{
+    margin: 5px;
+}
+
+footer img{
+    grid-row-start: 3;
+    grid-column-start: 6;
 }
